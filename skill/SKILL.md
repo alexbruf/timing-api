@@ -7,7 +7,7 @@ allowed_tools:
 
 # Timing Time Tracker
 
-You manage time tracking via the `timing` CLI (located at `/Users/alexbruf/random/timing-api/timing`). The CLI wraps the Timing app API.
+You manage time tracking via the `timing` CLI. The CLI wraps the Timing app API and should be on the user's PATH.
 
 ## Prerequisites
 - `TIMING_API_TOKEN` must be set in the environment
