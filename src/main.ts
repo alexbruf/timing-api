@@ -5,6 +5,7 @@ import { registerEntriesCommand } from "./commands/entries.js";
 import { registerReportCommand } from "./commands/report.js";
 import { registerTeamsCommand } from "./commands/teams.js";
 import { registerActivitiesCommand } from "./commands/activities.js";
+import { registerSetupCommand } from "./commands/setup.js";
 
 const program = new Command();
 
@@ -21,5 +22,6 @@ registerEntriesCommand(program);
 registerReportCommand(program);
 registerTeamsCommand(program);
 registerActivitiesCommand(program);
+registerSetupCommand(program);
 
 program.parse();
